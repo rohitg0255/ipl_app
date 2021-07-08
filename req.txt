@@ -1,0 +1,3 @@
+features-team1_home,team2_home,team1,team2,toss_win,
+toss_decision,team1_avg,team2_avg
+predict-winner

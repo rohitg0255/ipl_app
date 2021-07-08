@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="icon/ico" href="/favicon.ico"/>
+<!--    <link rel="icon" type="image/png" href="https://example.com/favicon.png"/>-->
+    <script src="{{url_for('static', filename='js/ist.js')}}" charset="utf-8" ></script>
+    {% block head %} {% endblock %}
+</head>
+<body>
+    <h1>HIIII</h1>
+    <button id="getapi" onclick=getapi()>Click me</button>
+    {% block body %}{% endblock %}
+
+</body>
+</html>
